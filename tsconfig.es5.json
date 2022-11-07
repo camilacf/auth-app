@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.app.json",
+    "compilerOptions": {
+        "target": "es5" 
+    },
+    "files": [
+        "src/main.ts",
+        "src/main.single-spa.ts",
+        "src/polyfills.es5.ts"
+    ]
+}
